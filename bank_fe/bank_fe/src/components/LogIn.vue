@@ -38,7 +38,7 @@ export default {
     methods: {
         processLogInUser: function(){
             axios.post(
-                "https://producto-mintic.herokuapp.com/login/", 
+                "https://misionticfronend2022.herokuapp.com/login/", 
                 this.user,  
                 {headers: {}}
                 )
